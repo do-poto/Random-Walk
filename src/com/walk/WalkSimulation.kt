@@ -36,8 +36,7 @@ class WalkSimualtion(){
                     x += -1;        //increment value of x by -1
                 }
                 i++;
-
-                return Pair(x, walkRecord);
             }
+            return Pair(x, walkRecord);
         }
 }

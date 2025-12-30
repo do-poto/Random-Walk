@@ -17,7 +17,7 @@ class FileCommunicator(){
     }
 
     //output file creating function
-    fun create(walkValueArray : Array<Int>, walkPathArray : Array<String>, lenght : Int, outputFile : String){
+    fun write(walkValueArray : ArrayList<Int>, walkPathArray : ArrayList<String>, lenght : Int, outputFile : String){
         //vars declared
         var i = 0;
         var printingString : String = "";
