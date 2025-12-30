@@ -1,6 +1,6 @@
 import kotlin.system.exitProcess
 
-class WalkSimualtion(val chanceUp : Double, val numberOfSteps : Int){
+class WalkSimualtion(){
         //vars for walk simulation decalred
         var chanceDown : Double? = null;
         var randomInt : Int? = null ;
@@ -9,7 +9,7 @@ class WalkSimualtion(val chanceUp : Double, val numberOfSteps : Int){
         var x : Int = 0;    //initial value of x
         var walkRecord : String = "";       //record of the walk  
 
-        fun walk(){
+        fun walk(chanceUp : Double, numberOfSteps : Int){
             //check for correct input
             if(chanceUp <= 1){
                 //calculate the down chance via 1 - p, where p is chance for up
