@@ -1,4 +1,8 @@
+//main function of the project
 fun main(args: Array<String>){
+    //create all class objects
     var myWalk = WalkSimualtion();
-    myWalk.walk(0.5, 10);
+    var myReader = FileCommunicator();
+    var myWriter = FileCommunicator();
+    
 }
